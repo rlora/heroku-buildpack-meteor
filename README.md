@@ -1,9 +1,9 @@
-# Heroku buildpack for meteor
+# Heroku buildpack for meteor using MongoLab
 
 ## Usage
 
 ```
-% heroku create --stack cedar --buildpack https://github.com/jordansissel/heroku-buildpack-meteor.git
+% heroku create --stack cedar --buildpack https://github.com/igreshev/heroku-buildpack-meteor.git
 ```
 
 ## Example
@@ -32,7 +32,7 @@ Initialized empty Git repository in /tmp/a/wordplay/.git/
 Create your heroku app
 
 ```
-% heroku create --stack cedar --buildpack https://github.com/jordansissel/heroku-buildpack-meteor.git
+% heroku create --stack cedar --buildpack https://github.com/igreshev/heroku-buildpack-meteor.git
 ```
 
 Deploy it
